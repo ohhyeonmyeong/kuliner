@@ -435,3 +435,294 @@ border-radius: 20px;
     padding-bottom: 60px;
     padding-top: 20px;
  }
+
+
+ /* service Part */
+ #service{background-color: #ededed;}
+
+ #service .wrap
+ {
+     width: 1160px;
+     padding: 0 10px;
+     margin: 0 auto;
+     text-align: center;
+     /* background-color: #aff; */
+ }
+
+ #service .wrap .title
+{
+     padding-top: 60px;
+     color: #555;
+     padding-bottom: 80px;
+}
+
+ #service .wrap .title h3
+ {  
+    padding-bottom: 20px;
+    font-size: 54px;
+    line-height: 72px;
+}
+ #service .wrap .title p
+ { font-size: 16px;}
+
+ #service .wrap .cont{font-size: 0;}
+
+ #service .wrap .cont div
+{
+     width: 360px;
+     height: 360px;
+     background-color: #fee;
+     margin: 0 10px;
+     display: inline-block;
+     border-radius: 8px;
+     padding: 40px;
+     vertical-align: top;
+     transition: transform 0.3s, box-shadow 0.5s;
+}
+
+#service .wrap .cont div img{padding-top: 40px;}
+
+#service .wrap .cont div h3
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+#service .wrap .cont div p
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+#service .wrap .cont div:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #f99;
+}
+
+#service .wrap .arrow_space{padding: 60px 0;}
+
+/* google info part */
+#google_info{}
+#google_info .image{
+    width: 100%;
+    height: 460px;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+#google_info .image .dark
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#google_info .image .dark .wrap
+{
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 10px;
+}
+
+#google_info .image .dark .wrap .center_cont
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#google_info .image .dark .wrap .title h3
+{       
+        font-size: 54px;
+        line-height: 72px;
+        color: #fff;
+        padding: 20px 0;
+}
+
+#google_info .image .dark .wrap .title p
+{    
+     font-size: 16px;
+     color: #fff;
+     padding-bottom: 40px;
+}
+
+#google_info .image .dark .wrap .center_cont .search_box
+{   width: calc(760px - 20px);
+    height: 60px;
+    border: 1px solid #f60;
+    border-radius: 8px;
+    font-size: 0;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#google_info .image .dark .wrap .center_cont .search_box input
+{
+   width: calc(100% - 60px);
+   height: 100%;
+   padding: 0 10px;
+   border: none;
+   background-color: transparent;
+   font-size: 18px;
+   outline-color: #f60;
+}
+
+#google_info .image .dark .wrap .center_cont .search_box button
+{
+    color: #f60;
+    text-align: center;
+    background-color: transparent;
+    height: 100%;
+    width: 60px;
+    border: none;
+    vertical-align: top;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* google map part */
+#google_map{
+    width: 100%;
+    background-color: #ededed;
+}
+#google_map .wrap{
+    width: 1160px;
+    padding: 0 10px;
+    background-color: #eee;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#google_map .wrap .left{
+    width: 50%;
+    height: 400px;
+    /*background-color: #aaf;*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#google_map .wrap .left #map{
+    width: 100%;
+    height: 100%;
+}
+
+#google_map .wrap .right
+{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    /*background-color: #faf;*/
+    padding: 20px;
+}
+#google_map .wrap .right .register .title
+{
+    text-align: center;
+    padding: 20px 0;
+}
+#google_map .wrap .right .register .title h3{
+    font-size: 54px; 
+    line-height: 74px;
+    color: #555;
+}
+
+#google_map .wrap .right .cont{}
+#google_map .wrap .right .cont .input_box{}
+#google_map .wrap .right .cont .input_box .input_line{padding-bottom: 8px;}
+#google_map .wrap .right .cont .input_box .input_line input
+{   width: 100%;
+    height: 35px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline-color: #f60;
+}
+#google_map .wrap .right .cont .input_box input[type="checkbox"]{height: 12px;}
+
+#google_map .wrap .right .cont .input_box span{font-size: 16px;}
+
+#google_map .wrap .right .cont .input_box .btn{
+    text-align: right;
+}
+#google_map .wrap .right .cont .input_box .btn input{
+    width: 240px;
+    height: 41px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#google_map .wrap .right .cont .input_box .btn input:hover{background-color: #d40;}
+
+
+/* footer part */
+
+#footer{
+    width: 100%;
+    height: auto; /* 생략가능 */
+    background-color: #000;
+    text-align: center;
+}
+
+#footer .wrap{
+    width: 1160px; /* 생략가능 */
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#footer .wrap .sns{}
+#footer .wrap .sns ul{font-size: 0;}
+#footer .wrap .sns ul li{display: inline-block; margin: 10px;}
+#footer .wrap .sns ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+#footer .wrap .sns ul li:hover a{
+    color: #f60;
+    border: 1px solid #f60;
+}
+
+#footer .wrap .f_logo{padding: 10px 0; font-size: 0;}
+#footer .wrap .f_logo img{}
+#footer .wrap p{font-size: 14px; padding: 14px 0;color: #fff;}
+
+/* 구글맵 연동하기 */
+#midEud3 #map_g
+{width: 500px; height: 400px; background-color: #aaf; }
+
+/* #topBtn (상단으로 이동) */
+#topBtn{position: fixed; bottom: 20px; right: 20px; z-index: 10;}
+
+#topBtn a
+{
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px; color: #fff;
+    border-radius: 4px;
+    background-color: #f60;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
